@@ -1,0 +1,29 @@
+<%- include ('partials/headerguild') %>
+<%- include ('partials/navbar') %>
+
+  <section id="messages" class="d-flex align-items-center">
+    <div class="container">
+        <h1>Welcome to the <%= data %> server dashboard</h1>
+
+        <div class="column">
+            <div class="box">
+              <textarea type="text" id="welcome" placeholder="Welcome Message"><%= welcomeMessage %></textarea>
+            </div>
+            <div class="box">
+              <textarea type="text" id="welcomeback" placeholder="Welcome Back Message"><%= welcomeBackMessage %></textarea>
+            </div>
+            <div class="box">
+              <textarea type="text" id="goodbye" placeholder="Goodbye Message" maxlength="1500" minlength="0"><%= goodbyeMessage %></textarea>
+            </div>   
+        </div>
+    </div>
+  </section><!-- End Hero -->
+
+  
+
+<!--   <div id="preloader"></div> -->
+
+<%- include ('partials/footerguild') %>
+
+</body>
+</html>

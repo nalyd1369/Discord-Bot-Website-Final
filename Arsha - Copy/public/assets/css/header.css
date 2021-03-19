@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #393c42 !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar button {
+    color: pink;
+    
+}

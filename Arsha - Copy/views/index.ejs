@@ -1,0 +1,62 @@
+<%- include ('partials/headerhome') %>
+<%- include ('partials/navbar') %>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <h1>A shitty bot for your shitty server</h1>
+        <h2>Join <%= guildCount %> other servers and <%= userCount %> idiots who invited this garbage</h2>
+        <button><a href="https://discord.com/api/oauth2/authorize?client_id=777324988314812458&permissions=8&redirect_uri=https%3A%2F%2Fnalyd1369.github.io%2Fdiscord-website%2Findex.html&scope=bot" class="btn-get-started scrollto">Invite</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="commands" class="d-flex align-items-center">
+    <div class="container">
+      <ul>
+        <h1><u>General Commands</u></h1>
+        <li><b>ping</b> - Sends latency</li>
+        <li><b>help</b> - Sends the help message</li>
+        <li><b>uptime</b> - Sends the uptime</li>
+        <li><b>botinfo</b> - Sends some info about the bot</li>
+        <li><b>invite</b> - Sends an invite link</li>
+        <li><b>vc</b> - Creates a custom voice channel</li>
+        <li><b>nick</b> - Nicknames the bot</li>
+        <li><b>mock</b> - Mocks a message</li>
+        <li><b>say</b> - Says the message</li>
+        <li><b>muted</b> - Lists muted members</li>
+      </ul>
+
+      <ul>
+        <h1><u>Moderation Commands</u></h1>
+        <li><b>purge</b> -  Deletes up to 100 messages</li>
+        <li><b>kick</b> - Kicks a member</li>
+        <li><b>ban/unban</b> - Bans or unbans a member</li>
+        <li><b>mute/unmute</b> - Mutes or unmutes a member</li>
+        <li><b>lock/unlock</b> - Locks or unlocks a channel</li>
+      </ul>
+
+      <ul>
+        <h1><u>Leaderboard Commands</u></h1>
+        <li><b>leaderboard</b> - Shows leaderboard</li>
+        <li><b>givexp/removexp</b> - Gives or removes xp</li>
+        <li><b>reset</b> - Resets a member</li>
+      </ul>
+
+      <ul>
+        <h1><u>Command Controls</u></h1>
+        <li><b>enable/disable</b> - Enables or disables a command</li>
+      </ul>
+    </div>
+
+  </section><!-- End Hero -->
+
+  
+
+<!--   <div id="preloader"></div> -->
+
+<%- include ('partials/footerhome') %>
+
+</body>
+</html>

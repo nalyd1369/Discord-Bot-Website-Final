@@ -1,0 +1,15 @@
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+#hero {
+  width: 100%;
+  height: 80%;
+  background-color: teal;
+
+}
+
+#hero h1, h2 {
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+<%- include ('partials/headerleaderboard') %>
+
+  <%- include ('partials/navbar') %>
+
+  <section id="header" class="d-flex align-items-center">
+    <div class="container">
+        <h1>Welcome to the server dashboard</h1>
+        <div class="leaderboard">
+          <p>
+            <% for(var i = 0 ; i < leaderboardPos.length ; i++) { %>
+              <tr>
+                <td><b><%= leaderboardPos[i] %></b> <%= dataName[i] %> Level <%= dataLevel[i] %> <%= dataXP[i] %></td>
+              </tr>
+              <br>
+            <% } %>
+          </p>
+        </div>
+
+        <div class="controls">
+          <h1>swag</h1>
+        </div>
+    </div>
+  </section><!-- End Hero -->
+
+  
+
+<!--   <div id="preloader"></div> -->
+
+<%- include ('partials/footerleaderboard') %>
+
+</body>
+</html>
